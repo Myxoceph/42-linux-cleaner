@@ -16,11 +16,11 @@ echo -e "${COLOR_YELLOW}Behold! The mighty purification of this device doth appr
 echo -e "${COLOR_GREEN}Do you wish to proceed with this grand cleansing? (Y/n): ${COLOR_END}"
 read confirm
 if [[ -n "$confirm" && $confirm != [yY] ]]; then
-    echo -e "${COLOR_RED}The cleansing has been halted. The device remains unpurified.${COLOR_END}"
+    echo -e "${COLOR_RED}The cleansing has been halted. The device remains unpurified.\n${COLOR_END}"
     exit 1
 fi
 
-echo -e "${COLOR_WHITE}Commencing purification...${COLOR_END}"
+echo -e "${COLOR_WHITE}Commencing purification...\n${COLOR_END}"
 
 sleep 0.05
 
