@@ -1,6 +1,6 @@
 # 🧹 Mclean - The Ultimate Linux Cache Cleaner
 
-**Mclean** is a powerful and efficient shell script that helps you reclaim disk space by cleaning cache files from various applications.
+**Mclean** is a powerful and efficient shell script that helps you reclaim disk space by cleaning cache files from various applications. It is specifically designed for Ecole 42 computers.
 
 ## ✨ Features
 - 🚀 Cleans cache for:
