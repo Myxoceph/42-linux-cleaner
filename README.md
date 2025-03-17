@@ -1,4 +1,4 @@
-# 🧹 Mclean - The Ultimate Linux Cache Cleaner
+# 🧹 Mclean - The Ultimate 42 Cleaner
 
 **Mclean** is a powerful and efficient shell script that helps you reclaim disk space by cleaning cache files from various applications. It is specifically designed for Ecole 42 computers.
 
