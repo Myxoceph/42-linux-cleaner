@@ -20,10 +20,9 @@ Run the following command in your terminal:
 ```sh
 curl -fsSL https://raw.githubusercontent.com/Myxoceph/42-linux-cleaner/main/mclean.sh -o ~/mclean.sh && chmod +x ~/mclean.sh && echo 'alias mclean="$HOME/mclean.sh"' | tee -a ~/.bashrc ~/.zshrc
 ```
-After running this, restart your terminal or execute:
+After running this, restart your terminal or execute this command:
 ```sh
-source ~/.bashrc  # For Bash
-source ~/.zshrc   # For Zsh
+source ~/.bashrc || source ~/.zshrc
 ```
 Now you can use `mclean` from anywhere! 🎉
 
