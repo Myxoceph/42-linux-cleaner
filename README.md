@@ -18,11 +18,7 @@
 ## 📥 Installation
 Run the following command in your terminal:
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Myxoceph/42-linux-cleaner/main/mclean.sh -o ~/mclean.sh && chmod +x ~/mclean.sh && echo 'alias mclean="$HOME/mclean.sh"' | tee -a ~/.bashrc ~/.zshrc
-```
-After running this, restart your terminal or execute this command:
-```sh
-source ~/.bashrc || source ~/.zshrc
+curl -fsSL https://raw.githubusercontent.com/Myxoceph/42-linux-cleaner/main/mclean.sh -o ~/mclean.sh && chmod +x ~/mclean.sh && echo 'alias mclean="$HOME/mclean.sh"' | tee -a ~/.bashrc ~/.zshrc && source ~/.bashrc || source ~/.zshrc
 ```
 Now you can use `mclean` from anywhere! 🎉
 
