@@ -48,7 +48,8 @@ cache_directories=(
     "$HOME/.var/app/*/cache/"
     "$HOME/.local/share/Trash/"
     "$HOME/.cache/"
-    "$HOME/.var/app/com.brave.Browser/cache/*"
+    "$HOME/.config/BraveSoftware/Brave-Browser/Default/Service Worker/"
+    "$HOME/.var/app/com.brave.Browser/cache/"
     "$HOME/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Cache/*"
     "$HOME/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/ShaderCache"
     "$HOME/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/GrShaderCache"
@@ -61,6 +62,8 @@ cache_directories=(
     "$HOME/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Favicons-journal"
     "$HOME/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Top Sites"
     "$HOME/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Top Sites-journal"
+    "$HOME/.config/Code/CachedExtensionVSIXs/"
+
 )
 
 for dir in "${cache_directories[@]}"; do
